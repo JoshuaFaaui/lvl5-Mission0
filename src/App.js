@@ -11,7 +11,8 @@ function App() {
   return (
     <div className="h-screen">
       <Navbar />
-      <Search setCoursesOnDisplay={setCoursesOnDisplay} coursesOnDisplay={coursesOnDisplay}/>
+      <Search setCoursesOnDisplay={setCoursesOnDisplay} />
+      <hr className='h-1 bg-gray-1'/>
       <Footer coursesOnDisplay={coursesOnDisplay} />
     </div>
   );

@@ -13,6 +13,16 @@ module.exports = {
         Dubai:
           "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy8MnI9AgIOrjmy2Sn7y2_Ebiaji_vfwRc_Q&usqp=CAU')",
       },
+      screens: {
+        sm: "0px",
+        // => @media (min-width: 576px) { ... }
+
+        md: "720px",
+        // => @media (min-width: 960px) { ... }
+
+        lg: "1440px",
+        // => @media (min-width: 1440px) { ... }
+      },
     },
   },
   plugins: [],
