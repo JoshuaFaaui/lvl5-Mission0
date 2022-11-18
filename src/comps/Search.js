@@ -51,11 +51,11 @@ function Search({setCoursesOnDisplay}) {
   };
 
   return (
-    <div className="bg-Dubai bg-cover bg-center w-screen h-3/4 flex justify-center items-center">
-      <h2 className="absolute top-40 left-40 text-3xl bold italic">
+    <div className="bg-Dubai bg-cover bg-center w-screen h-3/4 flex flex-col items-center justify-center">
+      <h2 className="relative text-3xl bold italic bottom-20 mr-36">
         “If failure makes you stronger, you can never lose.”
       </h2>
-      <div>
+      <div className='relative'>
         <input
           className="h-12 w-96 pl-10"
           placeholder="Search for course..."
@@ -72,7 +72,7 @@ function Search({setCoursesOnDisplay}) {
 
 {/* ----------------\/ This is the search bar suggestions that is being mapped \/ --------------*/}
         {searchCourse.length !== 0 && (
-          <div className="bg-white w-96 h-fit border pl-10" id="searchList">
+          <div className="bg-white w-96 h-fit border pl-10 absolute" id="searchList">
             <ul>
               {searchCourse.map((elements, index) => {
                 return (
