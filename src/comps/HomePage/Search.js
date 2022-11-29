@@ -55,7 +55,7 @@ function Search({setCoursesOnDisplay}) {
       <h2 className="relative text-3xl bold italic bottom-20 mr-36">
         “If failure makes you stronger, you can never lose.”
       </h2>
-      <div className='relative'>
+      <div className='relative flex sm:flex-col md:flex-row'>
         <input
           className="h-12 w-96 pl-10"
           placeholder="Search for course..."
